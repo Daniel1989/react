@@ -61,6 +61,9 @@ var basic = {
 };
 
 var min = grunt.util._.merge({}, basic, {
+  entries: [
+    './build/react.js'
+  ],
   outfile: './build/react.min.js',
   debug: false,
   after: [minify, bannerify]
