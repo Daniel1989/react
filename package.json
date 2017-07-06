@@ -9,6 +9,7 @@
     "babel-cli": "^6.6.5",
     "babel-core": "^6.0.0",
     "babel-eslint": "^5.0.0",
+    "babel-loader": "^7.1.1",
     "babel-plugin-check-es2015-constants": "^6.5.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
     "babel-plugin-transform-class-properties": "^6.11.5",
@@ -70,7 +71,8 @@
     "tmp": "~0.0.28",
     "typescript": "~1.8.10",
     "uglify-js": "^2.5.0",
-    "uglifyify": "^3.0.1"
+    "uglifyify": "^3.0.1",
+    "webpack": "^3.0.0"
   },
   "devEngines": {
     "node": "4.x || 5.x || 6.x || 7.x",
